@@ -1,0 +1,74 @@
+
+body{
+  font-family: 'Titillium Web', sans-serif;
+  background-image: linear-gradient(to right, white, rgb(226, 226, 226));
+  color: #747704;
+  font-size: 300;
+}
+
+.text-muted{
+  color: #BCBBBB
+}
+
+.progress-bar-orblue1 {
+      background-color: blue !important;
+}
+
+.progress-bar-orblue2 {
+      background-color:  rgb(0, 161, 251)!important;
+}
+
+.progress-bar-orblue3 {
+      background-color: rgb(0, 224, 255) !important;
+}
+
+.progress-bar-orblue4 {
+      background-color: rgb(0, 255, 179) !important;
+}
+
+.progress-bar-orblue5 {
+      background-color: rgb(0, 255, 117) !important;
+}
+
+.progress-bar-orblue6 {
+      background-color: rgb(89, 255, 0) !important;
+}
+
+.progress-bar-orblue7 {
+      background-color:  rgb(120, 255, 0)!important;
+}
+
+.progress-bar-orblue8 {
+      background-color: rgb(205, 255, 0) !important;
+}
+
+.progress-bar-orblue9 {
+      background-color: rgb(235, 255, 0) !important;
+}
+
+.progress-bar-orblue10 {
+      background-color: rgb(255, 222, 0) !important;
+}
+
+.progress-bar-orblue11 {
+      background-color: rgb(255, 207, 0) !important;
+}
+
+.progress-bar-orblue12 {
+      background-color: rgb(255, 145, 0) !important;
+}
+
+.progress-bar-orblue13 {
+      background-color: rgb(255, 130, 0) !important;
+}
+
+.progress-bar-orblue14 {
+      background-color: rgb(255, 92, 0) !important;
+}
+.progress-bar-orblue15 {
+      background-color: rgb(255, 92, 0) !important;
+}
+
+.text-thin{
+  font-weight: 100;
+}

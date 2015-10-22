@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang ="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>My Portfolio</title>
+    <script type="text/javascript" src="js/jquery-1.11.3.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link href='https://fonts.googleapis.com/css?family=Titillium+Web:200,300' rel='stylesheet' type='text/css'>
+  </head>
+  <body>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <img src="img/saintetienne.png" alt="logo école">
+        </div>
+        <div class="col-md-6 text-right text-uppercase">
+          <h1 class ="text-thin">sandjiv PARASSOURAMANAICK</h1>
+          <h4>graduating student</h4>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-12">
+          <hr>
+        </div>
+      </div>
+
+      <nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html">Home</a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        <li><a href="Cv.html">My CV <span class="sr-only">(current)</span></a></li>
+        <li class="active"><a href="projectGrid.html">Other Projects </a></li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li class="text-center"><button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#Contact">Contact</button></li>
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+
+<div class="row text-center">
+  <div class="col-md-4">
+    <a  data-target"#projectOne" data-toggle="modal"> <img class="img-responsive img-circle" src="http://placekitten.com/640/400"> </a>
+    <h3>page 1</h3>
+    <p> link 1 </p>
+  </div>
+  <div class="col-md-4">
+    <img class="img-responsive img-circle" src="http://placekitten.com/640/400"data-toggle="modal" data-target"#project2">
+    <h3>page 2</h3>
+    <p> link 2 </p>
+  </div>
+  <div class="col-md-4">
+    <img class="img-responsive img-circle" src="http://placekitten.com/640/400"data-toggle="modal" data-target"#project3">
+    <h3>page 2</h3>
+    <p> link 2</p>
+  </div>
+</div>
+
+    </div>
+
+    <!-- Modal -->
+<div class="modal fade" id="Contact" tabindex="-1" role="dialog" aria-labelledby="first" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h4 class="modal-title" id="first">Contact Me</h4>
+      </div>
+      <div class="modal-body">
+        <form action="mailto:sandjiv.parassou@gmail.com" method="post" name="contact">
+        Pseudo:
+        <input name="votre nom"><p>
+        Votre message:<br>
+        <textarea name="message" rows="2" cols="30"></textarea><p>
+        <input type="submit" value="envoyer"></form>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+  </body>
+</html>
