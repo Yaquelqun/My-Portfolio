@@ -10,10 +10,15 @@ body{
   color: #BCBBBB
 }
 
+.paragraph{
+  color: black;
+}
+
 .title{
 color: rgb(237, 56, 56);
-font-weight: bold; 
+font-weight: bold;
 }
+
 
 .progress-bar-orblue1 {
       background-color: blue !important;
